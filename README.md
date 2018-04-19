@@ -1,9 +1,8 @@
 # THSTrader
-通用版同花顺量化交易python API。
+量化交易。通用版同花顺客户端的python API。
 
 ## 为什么有这个项目
 本来看到了这个[easytrader](https://github.com/shidenggui/easytrader)这个项目，不过不知道为什么跑着老崩。于是乎，自己看了一遍easytrader的源码，写了一个自己的版本，懒得提PR给easytrader了，就创建了这个项目。
-
 
 ## 同花顺客户端
 ### v8.60.64_20170215
