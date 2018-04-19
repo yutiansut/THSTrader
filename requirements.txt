@@ -1,0 +1,5 @@
+pywinauto
+pandas
+scikit-learn
+pillow
+scipy
