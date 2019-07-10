@@ -1,32 +1,34 @@
 # THSTrader
-量化交易。最新版通用版同花顺客户端的python API。(Python3)
-
-## 状态
-稳定性测试中.....
-
-## 未知的BUG
-- 在某些电脑上面验证码截图失效导致无法使用（该问题出现在我苹果电脑上面装的windows虚拟机）
-
+量化交易。通用版同花顺客户端的python API。(Python3)
 
 ## 为什么有这个项目
 本来看到了这个[easytrader](https://github.com/shidenggui/easytrader)这个项目，不过这个客户端已经过时了(被强制更新)。于是乎，自己看了一遍easytrader的源码，写了一个自己的版本。
 
 
-## 同花顺客户端
-最新版同花顺客户端即可。
-### 说明
-这个版本的同花顺在复制数据时要输入验证码，这里用K最近邻算法进行识别。
-### 下载链接
+## 未知的BUG
+- 在某些电脑上面验证码截图失效导致无法使用（该问题出现在我苹果电脑上面装的windows虚拟机）
+
+
+## 安装说明
+
+### 同花顺客户端安装
+#### 下载链接
 版本号：v8.70.42_20180426
 链接: https://pan.baidu.com/s/1Ugk4m7Lh1Hw-EXLXp3q5Uw 密码: r1ix
 
+### tesseract-ocr安装
+首先下载Tesseract软件：[https://digi.bib.uni-mannheim.de/tesseract/](https://digi.bib.uni-mannheim.de/tesseract/)，并把tesseract添加到系统path中。
 
-## 验证码重新训练
-详情请查看trader_test/captcha_break.ipynb。
+### python环境安装
+``` bash
+pip3 install -r requirements.txt
+```
 
 ## 操作接口（API）
+操作演示视频见：[https://www.bilibili.com/video/av46248487/](https://www.bilibili.com/video/av46248487/)
+
 ### 说明
-首先登陆同花顺客户端，然后打开下单程序。
+首先登陆同花顺客户端，然后**打开下单程序**。
 
 **注意：使用过程中请保证下单程序处于可视状态，不要最小化同花顺客户端。**
 
